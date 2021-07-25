@@ -1,0 +1,254 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+header {
+    background-image: url(assets/Decore.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+
+.nav-item ul li {
+    list-style: none;
+    float: left;
+    margin-left: 55px;
+    font-size: 17px;
+}
+
+.nav-item ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.nav-item ul li a:hover {
+    background-color: gray;
+    color: #FFF;
+}
+
+
+/* thamnail section  */
+
+.thamnail-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-img img {
+    width: 100%;
+}
+
+.content {
+    width: 50%;
+}
+
+.content h6 {
+    font-size: 20px;
+    color: #DF6951;
+    text-transform: uppercase;
+}
+
+.content h1 {
+    font-size: 74px;
+    line-height: 89px;
+    font-weight: bold;
+    color: #181E4B;
+}
+
+.content p {
+    margin-top: 25px;
+    color: #5E6282;
+    font-size: 16px;
+}
+
+.main-btn {
+    width: 170px;
+    height: 60px;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.main-btn:hover {
+    transform: scale(.9);
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+/* catagorie section start  */
+
+.catagories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cata-head {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.cata-head h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.plane img {
+    width: 98px;
+    height: 78px;
+}
+
+.catagories-section {
+    box-shadow: 4px 4px 9px 7px rgba(82, 152, 255, 0.1);
+    border-radius: 36px;
+    margin: 0 10px;
+    padding: 30px 10px;
+}
+
+.top-selling {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.top-selling-section {
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 7px rgba(82, 152, 255, 0.1);
+}
+
+.top-selling-section img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.caption-details img {
+    width: 16px;
+    height: 16px;
+}
+
+.caption-details {
+    display: flex;
+    align-items: center;
+    margin: 25px 5px;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 5px;
+}
+
+.airlines {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe-cont {
+    text-align: center;
+    padding: 100px 30px;
+    margin: 100px 0;
+    background-color: #DFD7F9;
+    background-image: url(assets/subscribe-decor-left.png), url(assets/subscribe-decor-right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 100%, 100% 0;
+}
+
+.subscribe-cont h1 {
+    color: #5E6282;
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.subscribe-cont input {
+    height: 40px;
+    width: 300px;
+    color: #39425D;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.subscribe-cont button {
+    height: 40px;
+    padding: 5px 10px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.child h5 {
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.child img {
+    margin-bottom: 40px;
+}
+
+.child i {
+    color: blue;
+    margin: 0 10px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.ftr {
+    text-align: center;
+}
